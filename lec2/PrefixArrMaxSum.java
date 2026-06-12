@@ -1,4 +1,4 @@
-package lec2;
+// package lec2;
 
 
 public class PrefixArrMaxSum {

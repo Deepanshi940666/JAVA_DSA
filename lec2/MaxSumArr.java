@@ -1,4 +1,4 @@
-package lec2;
+// package lec2;
 
 public class MaxSumArr {
     public static void main(String[] args) {
