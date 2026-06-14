@@ -15,8 +15,9 @@ public class ASS_Arr1 {
         }
         return  false;
     }
+   
     public static void main(String[] args) {
-        int nums[]={1,2,3,4,1};
+        int nums[]={1,2,3,4,5,4};
         System.out.println(Distinct(nums));
     }
 }
