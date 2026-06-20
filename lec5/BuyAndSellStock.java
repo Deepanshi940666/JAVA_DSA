@@ -15,7 +15,7 @@ public class BuyAndSellStock {
       return max;
     }
     public static void main(String[] args) {
-        int arr[]={7,6,4,3,1};
+        int arr[]={2,6,4,3,1};
        System.out.println(BuySell(arr)); 
     }
 }
