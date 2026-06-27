@@ -1,13 +1,22 @@
 public class OperationsOnBits {
-    public static int  getid(int n, int i) {
+    public static int  getith(int n, int i) {
         if((n&(1<<i))!=0){
             return 1;
         }else{
             return 0;
         }
     }
+    public static int  setith(int n, int i) {
+        // if((n!(1<<i))!=0){
+        //     return 1;
+        // }else{
+        //     return 0;
+        // }
+        return n|(1<<i);
+    }
     public static void main(String[] args) {
-        System.out.println(getid(10, 2));
+        System.out.println(getith(10, 2));
+        System.out.println(setith(10, 2));
         
     }
 }
