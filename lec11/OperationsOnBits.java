@@ -7,16 +7,14 @@ public class OperationsOnBits {
         }
     }
     public static int  setith(int n, int i) {
-        // if((n!(1<<i))!=0){
-        //     return 1;
-        // }else{
-        //     return 0;
-        // }
         return n|(1<<i);
+    }
+    public static int  clearith(int n, int i) {
+        return n&(~(1<<i));
     }
     public static void main(String[] args) {
         System.out.println(getith(10, 2));
         System.out.println(setith(10, 2));
-        
+        System.out.println(clearith(10, 1));
     }
 }
