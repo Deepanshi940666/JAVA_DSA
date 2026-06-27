@@ -12,9 +12,14 @@ public class OperationsOnBits {
     public static int  clearith(int n, int i) {
         return n&(~(1<<i));
     }
+    public static int updateith(int n, int i, int newBit) {
+        n=clearith(n, i);
+        return (n|(newBit<<i));
+    }
     public static void main(String[] args) {
         System.out.println(getith(10, 2));
         System.out.println(setith(10, 2));
         System.out.println(clearith(10, 1));
+        System.out.println(updateith(10, 2,1));
     }
 }
