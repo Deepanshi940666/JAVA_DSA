@@ -8,5 +8,6 @@ public class CheckPowOf2 {
     public static void main(String[] args) {
         System.out.println(check(16)); //true
         System.out.println(check(12)); //false
+        System.out.println(check(7)); //false
     }
 }
