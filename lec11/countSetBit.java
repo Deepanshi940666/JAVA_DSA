@@ -10,7 +10,7 @@ public class countSetBit {
                 count++;
             }
 
-            n = n >> 1;   // Shift every time
+            n = n >> 1;   //  Shift every time
         }
 
         System.out.println(count);
