@@ -1,6 +1,6 @@
 public class FastExponentiation {
     public static void main(String[] args) {
-        int a=2, n=5,ans=1;
+        int a=3, n=5,ans=1;
         while(n!=0){
             int LSB=n&1;
             if(LSB==1){
