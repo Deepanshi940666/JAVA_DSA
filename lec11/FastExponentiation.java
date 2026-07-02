@@ -9,7 +9,7 @@ public class FastExponentiation {
                 ans*=1;
             }
             a=a*a;
-           n= n>>1;
+           n= n>>1 ;
         }
         System.out.println(ans);
     }
