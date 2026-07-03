@@ -1,5 +1,5 @@
-public class ObjClass {
-    public static void main(String[] args) {
+public class ObjectClass {
+     public static void main(String[] args) {
         Student s1= new Student(); //object
         System.out.println(s1.name);
         System.out.println(s1.rollno);
@@ -7,7 +7,6 @@ public class ObjClass {
         System.out.println(s1.name);
     }
 }
-
 class Student{   //class
     String name="Deepanshi";
     int rollno = 108;
