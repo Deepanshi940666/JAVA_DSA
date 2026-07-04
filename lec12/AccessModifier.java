@@ -1,6 +1,6 @@
 public class AccessModifier {
     public static void main(String[] args) {
-        BackAccount acc1=new BackAccount();
+        BankAccount acc1=new BankAccount();
         System.out.println(acc1.Username);
         acc1.setPassword(1234567);
         System.out.println(acc1.getPassword());
@@ -8,7 +8,7 @@ public class AccessModifier {
     }
 }
 
-class BackAccount{
+class BankAccount{
     public String Username="Deepanshi Gupta";
     private int password =12345;
 
