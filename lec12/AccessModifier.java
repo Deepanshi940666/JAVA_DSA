@@ -13,7 +13,7 @@ class BankAccount{
     private int password =12345;
 
     public int getPassword(){
-        return password;
+        return   password;
     }
 
     public void setPassword(int password) {
