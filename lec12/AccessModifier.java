@@ -5,9 +5,10 @@ public class AccessModifier {
         acc1.setPassword(1234567);
         System.out.println(acc1.getPassword());
         acc1.setPassword(12345678);
+        
         System.out.println(acc1.getPassword());
         // System.out.println(acc1.password);
-    }
+    }  
 }
 
 class BankAccount{
