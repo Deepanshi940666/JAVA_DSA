@@ -7,6 +7,7 @@ public class AccessModifier {
         acc1.setPassword(12345678);
         
         System.out.println(acc1.getPassword());
+        
         // System.out.println(acc1.password);
     }  
 }
