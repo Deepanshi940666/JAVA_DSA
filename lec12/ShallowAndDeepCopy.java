@@ -38,7 +38,7 @@ class Student{
     //     this.marks=s1.marks;
     // }
 
-    public  Student(Student s1){
+    public  Student(Student s1){ //Deep Copy
         marks=new int[3];
         for(int i=0;i<marks.length;i++){
             this.marks[i]=s1.marks[i];
