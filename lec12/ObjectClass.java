@@ -10,7 +10,6 @@ public class ObjectClass {
 class Student{   //class
     String name="Deepanshi";
     int rollno = 108;
-
     void setName(String newName){
         name= newName;
     }
