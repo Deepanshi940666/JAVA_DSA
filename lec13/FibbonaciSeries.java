@@ -14,8 +14,10 @@ public class FibbonaciSeries {
     public static void main(String[] args) {
         int a=0;
         int b=1;
-        int n=5;
-        Fibbo(a, b, n);
+        int n=9;
+        System.out.println(a);
+        System.out.println(b);
+        Fibbo(a, b, n-2);
     }
 }
 
